@@ -1,0 +1,21 @@
+<customUI xmlns="http://schemas.microsoft.com/office/2009/07/customui">
+	<ribbon>
+		<tabs>
+			<tab idMso="TabHome">
+				<group id="highlighters" label="Highlighters" visible="true" insertAfterMso="GroupFont" centerVertically="true">
+				  <box id="boxhighlights1" boxStyle="horizontal">
+            <button id="btnYellow" image="imgYellow" onAction="btnYellowClick" />
+            <button id="btnBlue" image="imgBlue" onAction="btnBlueClick" />
+            <button id="btnGreen" image="imgGreen" onAction="btnGreenClick" />
+           </box>
+           <box id="boxhighlights2" boxStyle="horizontal">
+            <button id="btnOrange" image="imgOrange" onAction="btnOrangeClick" />
+            <button id="btnPink" image="imgPink" onAction="btnPinkClick" />
+            <button id="btnPurple" image="imgPurple" onAction="btnPurpleClick" />
+            <button id="btnClear" image="imgClearHighlights" onAction="btnClearHighlightsClick" />
+           </box>
+				</group>
+			</tab>
+		</tabs>
+	</ribbon>
+</customUI>
